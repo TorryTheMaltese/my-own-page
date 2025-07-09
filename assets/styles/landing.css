@@ -1,0 +1,15 @@
+h1 {
+  color: white !important;
+}
+
+h1::after {
+  background-color: white !important;
+}
+
+h3 {
+  color: black !important;
+}
+
+h3::after {
+  background-color: black !important;
+}
