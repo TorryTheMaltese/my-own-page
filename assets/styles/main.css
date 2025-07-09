@@ -1877,14 +1877,19 @@ header.major > :first-child {
 
 header.major > :first-child:after {
   content: "";
-  background-color: #000000;
+  background-color: #ffffff;
   display: block;
   height: 2px;
   margin: 0.325em 0 0.5em 0;
   width: 100%;
 }
 
+header.major > h3 {
+  color: white;
+}
+
 header.major > p {
+  color: white;
   font-size: 0.7em;
   font-weight: 600;
   letter-spacing: 0.25em;
@@ -3521,6 +3526,7 @@ body.is-preload #header.alt {
 
 #banner > .inner header > :first-child:after {
   max-width: 100%;
+  background-color: #000000 !important;
 }
 
 #banner > .inner .content {
@@ -3670,6 +3676,10 @@ body.is-preload #banner > .inner {
   margin: 0 auto;
   max-width: 65em;
   width: calc(100% - 6em);
+}
+
+#main > * > .inner header > :first-child:after {
+  background-color: #000000 !important;
 }
 
 @media screen and (max-width: 736px) {
